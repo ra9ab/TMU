@@ -1,0 +1,26 @@
+/*
+ * DIO_cnfg.c
+ *
+ * Created:  23 , 9 , 2019
+ *  Author: Peter
+ */
+#include "DIO.h"
+extern DIO_cnfg_pin DIO_cnfg_arr[NUM_OF_PINS];
+
+DIO_cnfg_pin DIO_cnfg_arr [NUM_OF_PINS] =
+{
+	{PORT_B,PIN6,OUTPUT,LOW,NA},
+	{PORT_B,PIN5,OUTPUT,LOW,NA},
+	{PORT_B,PIN4,OUTPUT,LOW,NA},
+	{PORT_D,PIN1,INPUT,NA,PULLUP},
+	{PORT_D,PIN2,INPUT,NA,PULLUP},
+	{PORT_B,PIN7,OUTPUT,LOW,NA},
+	/*{PORT_D,PIN4,OUTPUT,HIGH,NA},
+	{PORT_D,PIN5,OUTPUT,HIGH,NA},
+	{PORT_D,PIN6,OUTPUT,HIGH,NA},
+	{PORT_B,PIN1,OUTPUT,HIGH,NA},
+	{PORT_A,PIN1,OUTPUT,LOW,NA},
+	{PORT_A,PIN0,OUTPUT,LOW,NA},*/
+
+
+};
